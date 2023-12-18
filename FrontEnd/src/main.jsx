@@ -56,6 +56,10 @@ const router = createBrowserRouter([
         path: "/cliente moderno",
         element: <Contacts />,
       },
+      {
+        path: "/deudas",
+        element: <Customer />,
+      },
     ],
   },
 ]);
